@@ -113,4 +113,5 @@ def virustotal(url):
         return f"Failed to retrieve analysis results. Status code: {response.status_code}"
 
 if __name__ == "__main__":
-    app.run(host="52.6.135.181", port=5000, debug=True)
+ app.run(host="0.0.0.0", port=5000, debug=True)
+
